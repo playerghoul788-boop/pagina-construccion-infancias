@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Construcción histórica de las infancias</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+
+body {
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+    background: url('https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Capa blanca suave encima del fondo */
+.overlay {
+    background: rgba(255,255,255,0.85);
+    min-height: 100vh;
+}
+
+/* Estrellas flotando */
+.star {
+    position: fixed;
+    color: #ffd700;
+    font-size: 20px;
+    animation: float 6s infinite ease-in-out;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); opacity: 0.7; }
+    50% { transform: translateY(-20px); opacity: 1; }
+    100% { transform: translateY(0px); opacity: 0.7; }
+}
+
+/* Menú lateral */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 230px;
+    height: 100%;
+    background: #ff9aa2;
+    padding-top: 20px;
+    box-shadow: 3px 0px 10px rgba(0,0,0,0.2);
+}
+
+.sidebar h2 {
+    text-align: center;
+    color: white;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    background: #ff6f61;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 30px;
+}
+
+header {
+    background: #ffcc70;
+    padding: 25px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    animation: aparecer 1s ease-in-out;
+}
+
+.card {
+    background: #fdf2f8;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ff6f61;
+}
+
+h3 {
+    color: #6a5acd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid #ffd166;
+}
+
+th {
+    background: #ffd166;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@keyframes aparecer {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+.galeria{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    margin:40px 0;
+}
+
+.item{
+    text-align:center;
+    width:250px;
+}
+
+.item img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 0 15px rgba(0,0,0,0.3);
+}
+
+.item p{
+    background:white;
+    padding:10px;
+    border-radius:15px;
+    margin-top:10px;
+}.video-container {
+    text-align: center;
+    margin: 40px 0;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Estrellas -->
+<div class="star" style="top:10%; left:40%;">⭐</div>
+<div class="star" style="top:30%; left:70%;">⭐</div>
+<div class="star" style="top:60%; left:50%;">⭐</div>
+<div class="star" style="top:80%; left:20%;">⭐</div>
+
+<div class="overlay">
+
+<div class="sidebar">
+    <h2>📖 Menú</h2>
+    <a href="#inicio">Inicio</a>
+    <a href="#grupo">Integrantes</a>
+    <a href="#lugar">1. El lugar de las infancias</a>
+    <a href="#trayectos">2. Trayectos históricos</a>
+    <a href="#transformacion">3. Transformación de las realidades</a>
+    <a href="#desafios">4. Desafíos para la acción</a>
+</div>
+
+<div class="content">
+
+<header>
+    <h1>👩🏻‍🏫 Construcción histórica de las infancias ✍🏻</h1>
+    <p>Análisis de la evolución del concepto de niño, niña, niñez e infancia</p>
+</header>
+
+<section id="inicio">
+    <h2>🌟 Presentación</h2>
+    <div class="card">
+        En este espacio se presenta una revisión histórica del concepto de infancia, comprendiendo que no existe una única forma de vivirla. A lo largo del tiempo, la concepción de niño y niña ha transitado desde la invisibilización hasta el reconocimiento como sujetos de derechos. Hoy, hablar de infancias implica reconocer la diversidad de realidades sociales, culturales y económicas que configuran las experiencias infantiles.
+    </div>
+</section>
+
+<section id="grupo">
+    <h2>👩‍🎓 Integrantes del grupo</h2>
+    <div class="card">
+        <div class="galeria">
+
+    <div class="item">
+        <img src="imagen1.jpg" alt="Edad Antigua">
+        <p><strong>Yeimy Jazmín Torres Faracica</strong><br>
+        Mi nombre es Yenny Paola Fierro Torres y soy estudiante de Licenciatura en Educación Infantil en el CEA de Acacías, Meta. Me estoy formando para acompañar el desarrollo integral de los niños y niñas en sus primeros años de vida, promoviendo el aprendizaje a través del juego, los valores y el amor por el conocimiento.
+Mi objetivo es convertirme en una profesional comprometida, capaz de aportar de manera positiva a la educación y contribuir a la formación de niños y niñas felices, seguros y con bases sólidas para su futuro.</p>
+    </div>
+
+    <div class="item">
+        <img src="imagen2.jpg" alt="Edad Media">
+        <p><strong>Yeimy Jazmín Torres Faracica</strong><br>
+        Mi nombre es Yeimy Torres vivo en el departamento del Meta soy estudiante del programa de Licenciatura en pedagogía infantil de la Universidad Nacional Abierta y a Distancia (UNAD)  Decidí estudiar esta carrera porque creo firmemente que la educación en los primeros años es el motor que transforma una sociedad. mi meta es convertirme en una docente que ayude a la niñez y que este présta a colaborar para conectar mejor con los niños y sus familias.</p>
+    </div>
+
+    <div class="item">
+        <img src="imagen3.jpg" alt="Edad Moderna">
+        <p><strong>Daniela Paola Ramirez Quiroga</strong><br>
+        Mi nombre es Daniela Ramirez soy estudiante de Lic. En educacion infantil, vivo en el departamento del Meta me estoy formando para acompañar de manera integral y cognitiva al desarrollo de los niños y niñas en sus primeros años de vida me interesa comprender las distintas realidades de la infancia y promover espacios educativos basados en el respeto, la inclusión y el reconocimiento de la diversidad.</p>
+    </div>
+<div class="item">
+        <img src="imagen4.jpg" alt="Edad Moderna">
+        <p><strong> Luisa Fernanda Vesga Rodríguez</strong><br>
+        Mi nombre es Luisa Fernanda Vesga Rodríguez, tengo 28 años , residente en la ciudad Villavicencio hace 6 años.</p>
+    </div>
+</div>
+        <p>Estudiante de Licenciatura en educación infantil interesado en el análisis crítico de los procesos sociales e históricos.</p>
+    </div>
+</section>
+
+<section id="lugar">
+    <h2>📚 1. El lugar de las infancias</h2>
+
+    <div class="card">
+        <h3>🏛 Edad Antigua</h3>
+        <p><strong>Fechas:</strong> Siglo VIII a.C. – Siglo V d.C.</p>
+    <p><strong>Concepción:</strong> El niño era considerado un adulto en formación, sin reconocimiento de derechos específicos.</p>
+    <p><strong>Contexto social:</strong> Sociedad jerárquica y patriarcal.</p>
+    <p><strong>Contexto cultural:</strong> Educación limitada a ciertos grupos.</p>
+    </div>
+
+    <div class="card">
+        <h3>🏰 Edad Media</h3>
+       <p><strong>Fechas:</strong> Siglo V – Siglo XV.</p>
+    <p><strong>Concepción:</strong> Niño visto como adulto pequeño, participación temprana en trabajo.</p>
+    <p><strong>Contexto social:</strong> Sistema feudal y fuerte influencia religiosa.</p>
+    <p><strong>Contexto cultural:</strong> Educación principalmente religiosa.</p>
+    </div>
+
+    <div class="card">
+        <h3>🎩 Edad Moderna</h3>
+        <p><strong>Fechas:</strong> Siglo XV – Siglo XVIII.</p>
+    <p><strong>Concepción:</strong> Se empieza a reconocer la infancia como etapa diferenciada.</p>
+    <p><strong>Autor clave:</strong> Philippe Ariès.</p>
+    <p><strong>Contexto social:</strong> Cambios económicos y Revolución Industrial.</p>
+    <p><strong>Contexto cultural:</strong> Surgimiento de la escuela moderna.</p>
+    </div>
+
+    <h3>📝 Matriz de revisión histórica</h3>
+   <h2 style="text-align:center;">MATRIZ DE REVISION HISTORICA</h2>
+<table border="1" style="width:100%;border-collapse:collapse;font-family:Arial;">
+<tr>
+<th>ETAPA HISTORICA</th>
+<th>FECHAS</th>
+<th>CONCEPCIONES DE NIÑO,NIÑA, NIÑEZ Y INFANCIA</th>
+<th>PRINCIPALES AUTORES</th>
+<th>CONTEXTO SOCIAL</th>
+<th>CONTEXTO CULTURAL</th>
+</tr>
+
+<tr>
+<td><b>EDAD ANTIGUA</b></td>
+<td>siglo V a.c - siglo V d.c</td>
+
+<td>
+• Se entiende la niñez como un periodo vital caracterizado primordialmente por la debilidad y parte de madurez del ser humano.<br>
+• Antiguamente se percibia a los menores como individuos carentes de autonomia situandolos a depender absolutamente de loa adultos.<br>
+• el niño era visto como una carga o un obstaculo ya que la sociedad estaba diseñada para satisfacer exclusivamente las necesidades de los adultos.<br>
+• el desarrollo y las tareas de los infantes estaban ligados estrictamente en labores domesticas, su crianza se orientaba en aprender desde una edad temaprana a como ganar o llevar el sustento al hogar las principales actividades eran el campo la cria de animales.
+</td>
+
+<td>
+• Alzate (2002): define la niñez antigua como una etapa de fragilidad.<br>
+• Puerto (1980): Menciona la investigación de los conceptos culturales que definían al niño como un "estorbo" o "yugo".<br>
+• Maturana y Vignolo (2001): la enseñanza en aquel periodo se manifestada como una practica natural en el núcleo familiar respondiente a necesidades.
+</td>
+
+<td>
+• El entorno social estaba diseñado exclusivamente para satisfacer requerimientos y expectativas de los adultos.<br>
+• El espacio vital de la niñez era frecuentemente opacado por la predominancia del mundo adulto, incluso en eventos de carácter cultural.<br>
+• Socialmente, se utilizaban términos despectivos para referirse a los niños, tales como estorbo o yugo.<br>
+• Los menores eran víctimas de prácticas como el maltrato, el trabajo forzado, la mendicidad y rituales de infanticidio.<br>
+• El destino social del niño dependía del entorno familiar; mientras algunos se orientaban al comercio o la agricultura, los sectores más vulnerables eran destinados a la servidumbre o la esclavitud.
+</td>
+
+<td>
+• La cultura estaba diseñada y organizada exclusivamente para satisfacer necesidades y dinámicas del mundo adulto.<br>
+• No existía un espacio destinado a la infancia ya que no se reconocía al niño como un ser con conciencia lógica.<br>
+• Culturalmente, el niño no era tomado en cuenta para decisiones ya que ellos decían que eran carentes de razón.<br>
+• La formación infantil se basaba en una estructura familiar orientada a la subsistencia, donde el niño era visto como un recurso para el trabajo (agricultura, ganadería) o la servidumbre.<br>
+• Eran expuestos a prácticas como el infanticidio los sacrificios rituales y el maltrato físico.
+</td>
+</tr>
+
+<tr>
+<td><b>EDAD MEDIA</b></td>
+<td>siglo v hasta el siglo XV</td>
+
+<td>
+• Se consideraba que el niño era un ser impuro.<br>
+• Debido a esa supuesta impureza, se creía que el niño debía ser bautizado, castigado y reprendido.<br>
+• Se consideraba que necesitaba disciplina y castigos severos para poder ser útil a la sociedad en el futuro.<br>
+• Entre los años 354 y 430 (hasta el siglo IV), la cultura destacaba al niño como un ser dependiente e indefenso, llegándose a utilizar expresiones como "los niños son un estorbo" o "los niños son un yugo".<br>
+• La sociedad estaba diseñada exclusivamente para satisfacer las necesidades de los adultos. El niño no era valorado por sí mismo.<br>
+• Muchos niños morían al nacer por malas condiciones higiénicas. Eran habituales prácticas como el abandono o el aborto.<br>
+• Existían situaciones de esclavitud, trabajo forzado, mendicidad y niños sirviendo como lazarillos o en trabajos sexuales.<br>
+• Ante la falta de familia, se crearon los primeros albergues y orfanatos.
+</td>
+
+<td>
+• Sánchez (2018): Es el autor principal que describe las condiciones de vida infantil en esta época.<br>
+• Puerto (1980): Destaca que desde el año 354 hasta el siglo IV, se consideraba al niño como un ser dependiente e indefenso.<br>
+• Pérez (2010): la denomina como una época de tenebrismo en cuanto a la valoración de la cultura y la infancia.<br>
+• Alzate (2002): Aporta la visión de la niñez como una etapa referida a la fragilidad e imperfección humana.
+</td>
+
+<td>
+• Los niños eran víctimas de esclavitud, trabajos forzados y mendicidad.<br>
+• Muchos niños se desempeñaban como lazarillos o eran forzados a realizar trabajos sexuales.<br>
+• La sociedad estaba diseñada exclusivamente para satisfacer las necesidades de los adultos.<br>
+• Se consideraba que el niño era un ser impuro.<br>
+• El entorno era válido el uso del castigo físico y la reprensión constante; se creía que solo a través de una disciplina rígida el niño podría llegar a ser útil para la sociedad.<br>
+• En ciertos contextos culturales de la época, los niños podían ser víctimas de mutilaciones o sacrificios ofrecidos a los dioses.
+</td>
+
+<td>
+• Se consideraba al niño como un ser impuro por esta razón se tenia la necesidad de ser bautizado, castigado y reprendido.<br>
+• La educación y crianza estaban centradas en la disciplina y el castigo físico.<br>
+• Debido a condiciones higiénicas desfavorables muchos niños morían durante el nacimiento.<br>
+• Eran habituales costumbres como el abandono, el aborto o el infanticidio.<br>
+• Persistían formas de esclavitud y el uso de los niños para el trabajo.<br>
+• Al final del siglo XV se comenzó a notar un cambio gradual donde se empezó a percibir a los niños como seres humanos desde su nacimiento.
+</td>
+</tr>
+
+<tr>
+<td><b>EDAD MODERNA</b></td>
+<td>siglo XV hasta finales del siglo XVIII 1600 - 1789</td>
+
+<td>
+• Se consolida la infancia como etapa diferenciada donde el niño es visto como ser moldeable, educable y perfectible.<br>
+• Se siguen observando desigualdades de genero.<br>
+Se generan las contardicciones entre proteccion infantil y explotacion laboral,la infancia se divide entre proteccion burguesa y explotacion obrera.<br>
+la infancia se estudia cientificamente y se reconoce etapas del desarrollo cognitivo,emocional y social. se consolida el niño como sujeto activo de derechos y de aprendizaje acompañado de avances en ´proteccion juridica.<br>
+• la infancia se consolida como etapa con caracteristicas propias y derechos los cualkes desarrollan teorias del desarrollo integral infantil: se reconoce progresivamente a los niños y niñas como sujetos garantes y sujetos de derechos.<br>
+Niño y niña como sujetos de derechos de derechos, enfoque diferencial; genero,diversidad cultural,discapacidad , infancia como construccion social plural ( infancias).
+</td>
+
+<td>
+• Juan Amos Comenio (1592-1670) Eduacacion universal por edades<br>
+• Jhon Locke (1632-1704) Tabula raza (mente como hoja en blanco)<br>
+• Jean jacques Rousseau (1712-1778) El niño naturalmente bueno; educacion segun etapas naturales<br>
+• Johann Heinrich Pestalozzi (1746 -1827 ) La eduaccion integral "cabeza,corazon y manos".<br>
+• Karl Marx (1818-1883) critica el trabajo infantil en el capitalismo.<br>
+• Jean Piaget (1896-1980) plantea las etapas cognitivas de los niños.<br>
+• Lev Vygotsky (1896-1934) zona de desarrollo proximo y aprendizaje social del niño.<br>
+• Maria Montessori (1870-1952) la educacion centrada en el niño con una pedagogia activa.<br>
+• UNICEF - proteccion integral de la infancia junto con la ONU - naciones unidas las cuales promueven la convencion de derechos del niño.<br>
+• Allison James - Sociologia de la infancia como actor social.<br>
+• Alan Prout - infancia como categoria social dinamica
+</td>
+
+<td>
+• Se da el surgimiento del estado moderno y la creacion de sistemas escolares formales.<br>
+• surgimiento del estado modernos con indices de reformas educativas.<br>
+• la urbanizacion acelerada<br>
+• la legislacion laboral infantil progresiva<br>
+• consolidacion del sistema escolar con expansion de derechos sociales y humanos.<br>
+• enfoque de dererchos humanos para la infancia<br>
+• consolidacion de la psicologia, expansion de nuevos modelos educativos con mayor reconocimiento de derechos infantiles<br>
+• reconocimiento internacional con perspectiva intercultural y enfoque de derechos con un reconocimiento de multiples formas de vivir la infancia segun el contexto social.
+</td>
+
+<td>
+• Jean-Jacques Rousseau es el pensador clave de este periodo al plantear que el niño es bueno por naturaleza.<br>
+• Esta idea se opone a las visiones anteriores que veían a la infancia como un estado de impureza o imperfección.<br>
+• Surge la institucionalización de la escuela, lo que refleja un interés creciente por organizar el aprendizaje infantil de manera formal.<br>
+• Se promulgan las primeras leyes de protección al menor.<br>
+• A pesar de los avances filosóficos, el texto señala que las malas prácticas y el mal trato hacia los niños aún se mantenían de forma habitual.<br>
+• La educación todavía se enfocaba en gran medida en disciplinar a los niños bajo estructuras rígidas.<br>
+• Durante el siglo XVII, el niño comienza a ser visto bajo una condición de bondad e inocencia.<br>
+• En el siglo XVIII, se le otorga formalmente la categoría de infante, aunque todavía se le consideraba un ser que necesitaba desarrollarse plenamente<br>
+• Nueva valorizacion de la familia nuclear y modelos nuevos de crianza, la expansión de la escuela como eje principal en la formacion de la familia
+</td>
+</tr>
+
+</table>
+
+    <h3>🎬 Video animado</h3>
+    <div class="video-container">
+    <video width="700" controls>
+        <source src="video.mp4" type="video/mp4">
+        Tu navegador no soporta el video.
+    </video>
+</div>
+</section>
+
+<section id="trayectos">
+    <h2>2. Trayectos históricos</h2>
+    <p>Esta sección será desarrollada en el Escenario 3.</p>
+</section>
+
+<section id="transformacion">
+    <h2>3. Transformación de las realidades</h2>
+    <p>Esta sección será desarrollada en el Escenario 4.</p>
+</section>
+
+<section id="desafios">
+    <h2>4. Desafíos para la acción</h2>
+    <p>Esta sección será desarrollada en el Escenario 5.</p>
+</section>
+
+<footer>
+    <p>🌈 Proyecto académico - Curso Construcción histórica de las infancias</p>
+</footer>
+
+</div>
+</div>
+
+</body>
+</html>
