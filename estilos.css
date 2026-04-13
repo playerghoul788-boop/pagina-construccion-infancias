@@ -62,3 +62,6 @@
     max-width: 100%;
     overflow-x: hidden;
 }
+body {
+    overflow-x: hidden;
+}
