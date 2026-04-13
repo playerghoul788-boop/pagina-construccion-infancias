@@ -1,1 +1,14 @@
+.zoom-container {
+    width: 100%;
+    overflow: auto;
+    border-radius: 15px;
+    background: white;
+    padding: 10px;
+    text-align: center;
+}
 
+.zoom-container img {
+    max-width: 100%;
+    transition: transform 0.2s ease;
+    cursor: zoom-in;
+}
