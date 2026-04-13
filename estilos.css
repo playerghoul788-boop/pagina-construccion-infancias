@@ -65,3 +65,25 @@
 body {
     overflow-x: hidden;
 }
+.content {
+    margin-left: 250px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* 🔥 IMPORTANTE: evita que algo se salga */
+section {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* 🔥 Esto corrige el desbordamiento */
+.card {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* 🔥 Para evitar que elementos enormes rompan el diseño */
+img, table, div {
+    max-width: 100%;
+}
