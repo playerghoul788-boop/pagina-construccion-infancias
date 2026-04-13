@@ -82,7 +82,9 @@ section {
     width: 100%;
     box-sizing: border-box;
 }
-
+.content {
+    overflow-x: hidden;
+}
 /* 🔥 Para evitar que elementos enormes rompan el diseño */
 img, table, div {
     max-width: 100%;
