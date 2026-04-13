@@ -89,3 +89,26 @@ section {
 img, table, div {
     max-width: 100%;
 }
+/* 🔥 ARREGLA TODO EL DESORDEN */
+.content {
+    margin-left: 250px;
+    padding: 30px;
+    box-sizing: border-box;
+    max-width: calc(100% - 250px);
+}
+
+/* 🔥 Evita que algo se salga */
+section, .card {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* 🔥 Para imágenes y tablas grandes */
+img, table {
+    max-width: 100%;
+}
+
+/* 🔥 Evita que se rompa horizontalmente */
+body {
+    overflow-x: hidden;
+}
