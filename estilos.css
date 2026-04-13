@@ -56,3 +56,9 @@
     max-width: 90%;
     max-height: 90%;
 }
+.content {
+    margin-left: 250px;
+    padding: 30px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
