@@ -563,18 +563,23 @@ Niño y niña como sujetos de derechos de derechos, enfoque diferencial; genero,
 
 <script>
 
-/* ACORDEÓN */
+/* TODOS LOS ACORDEONES */
 
-const acordeonBtn = document.querySelector(".acordeon-btn");
-const acordeonContenido = document.querySelector(".acordeon-contenido");
+const acordeones = document.querySelectorAll(".acordeon-btn");
 
-acordeonBtn.addEventListener("click", () => {
+acordeones.forEach((btn) => {
 
-    if(acordeonContenido.style.maxHeight){
-        acordeonContenido.style.maxHeight = null;
-    } else {
-        acordeonContenido.style.maxHeight = acordeonContenido.scrollHeight + "px";
-    }
+    btn.addEventListener("click", () => {
+
+        const contenido = btn.nextElementSibling;
+
+        if(contenido.style.maxHeight){
+            contenido.style.maxHeight = null;
+        } else {
+            contenido.style.maxHeight = contenido.scrollHeight + "px";
+        }
+
+    });
 
 });
 
